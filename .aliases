@@ -15,13 +15,13 @@ alias o="open"
 alias oo="open ."
 
 # List all files colorized in long format
-alias l="ls -Gl"
+alias l="ls -GlFh"
 
 # List all files colorized in long format, including dot files
-alias la="ls -Gla"
+alias la="ls -GlaFh"
 
 # List only directories
-alias lsd='ls -l | grep "^d"'
+alias lsd='ls -Glh | grep "^d"'
 
 # Always use color output for `ls`
 if [[ "$OSTYPE" =~ ^darwin ]]; then
